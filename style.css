@@ -13,6 +13,7 @@ margin-bottom: 2em;
 }
 nav a{
   margin-left: 1em; 
+   padding: 4.5vh;
   color: white;
   font-weight: bold;
   text-decoration : none;
@@ -31,5 +32,29 @@ nav a:hover{
 .active{
   background-color: black;
    padding: 4.5vh;
+}
+
+.IsItTriangle{
+ 
+  width: 70%;
+  margin-left:15%;
+   display: flex;
+  flex-direction: column;
+}
+
+#IsItTriangle button{
+  margin-top: 5vh;
+}
+
+.quizStyle{
+   width: 70%;
+  margin-left:15%;
+   display: flex;
+  flex-direction: column;
+  padding: 2vh;
+}
+.quizStyle button{
+   width: 20%;
+   margin: 2vh;
 }
 
