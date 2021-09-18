@@ -7,7 +7,15 @@
       <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-      <div>
+      <nav>
+        <a href="#IsItTriangle" id="submenu1"> IsItTriangle</a>
+        <a href="#quizTriangle" id="submenu2">Triangle Quiz</a>
+        <a href="#hypotaneus" id="submenu3">Find Hypotenues</a>
+        <a href="#area" id="submenu4">Find Area</a>
+      </nav>
+
+
+      <div id="IsItTriangle">
 
         <label for="angle1">angle1</label>
   <input type="number" name="" class="angle-input">
@@ -20,7 +28,7 @@
   <div id="output"></div>
       </div>
 
-      <div>
+      <div id="quizTriangle">
         <h1>Triangle Quiz</h1>
         <form class="quiz-form">
           <div class="container">
@@ -41,14 +49,14 @@
         <div id="output-score"></div>
       </div>
 
-      <div class="hypotaneus">
+      <div id="hypotaneus">
     <input type="number" name="" id="sideA"/>
     <input type="number" name="" id="sideB"/>
     <button id="calculate">Calculate Hypotaneus</button>
     <div id="final-score"></div>
       </div>
 
-       <div class="area">
+       <div id="area">
     <input type="number" name="" id="base"/>
     <input type="number" name="" id="height"/>
     <button id="calculateArea">Calculate area</button>
